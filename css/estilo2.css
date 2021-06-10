@@ -1,0 +1,167 @@
+.vertical-menu {
+  width: 15%;
+  position: fixed;
+}
+
+.vertical-menu a {
+  background-color: black;
+  color: #02C7D1;
+  display: block;
+  padding: 5%;
+  text-decoration: none;
+
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #FF00FB;
+  color: white;
+}
+
+.logo{
+	width: 30%;
+	height:15%;
+}
+
+.contenido {
+background-color: black;
+position: relative;
+left: 15%;
+color: white;
+text-align: justify;
+width: 70%;
+margin: 7%;
+font-size: 150%;
+
+
+
+}
+h1{
+	
+	font-family:courier;
+	color: #02C7D1;
+	font-size:50px;
+	
+}
+
+h2{
+	text-align: center;
+	font-family:courier;
+	color: #02C7D1;
+	font-size:200%;
+}
+h3{
+	text-align: center;
+	font-family:courier;
+	color: #FF00FB;
+	font-size:25px;
+}
+
+.buscador{
+	
+	background-color: black;	 
+	font-size: 20px;
+	width: 120px;
+	color: white;
+	font-family:courier;
+}
+
+footer {
+	
+	position: relative;
+	text-align: center;
+	color: #FF00FB;
+	background-color: black;
+	font-size: 15px;
+
+
+}
+table {
+	width: 100%;
+   border: 1px solid ;
+   border-collapse: separate;
+   border-spacing: 5px;
+   background: white url("gradient.gif") bottom left repeat-x;
+   color: #FF00FB;
+}
+td, th {
+   background: #A8FFFD;
+   color: #000;
+   text-align: center;
+}
+td{
+	color: black;
+	text-align: center;
+}
+
+#titulo {
+	position: absolute;
+	top:5%;
+	left: 5%;
+	width: 100%;
+	text-align: center;
+	font-size: 150px;
+	color: black;
+	}
+.imagen {
+	margin-top: 5%;
+	width: 50%;
+	position: relative;
+	left: 25%;
+}
+
+#titulocorto {
+	position: absolute;
+	top:5%;
+	left:7%;
+	width: 100%;
+	text-align: center;
+	font-size: 90px;
+	
+}
+.volver {font-size: 25px;}
+
+
+ #ps5{
+    float: left;
+   width: 350px;
+   height:350px;
+   padding-right: 30px; 
+}
+   #nintendo{
+  float : left;
+   width: 550px;
+   height:350px;
+   padding-right: 30px; 
+
+  }
+    #nintendo2{
+      float: right;
+   width: 500px;
+   height:350px;
+      padding-left: 30px; 
+  
+ }
+    #xbox{
+    float: right;
+   width: 200px;
+   height:150px;
+   padding-right: 30px; 
+
+  }
+  .error {
+  	font-family:courier;
+	color: #02C7D1;
+	font-size:150px;
+  }
+  .derecha {
+  	position: relative;
+  	left: 80%;
+  }
+  .marcos{
+  	width:30px; 
+  	height:29px; 
+  }
